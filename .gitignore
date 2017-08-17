@@ -20,3 +20,4 @@
 
 # Dotenv
 .env.production
+.idea/

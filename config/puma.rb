@@ -7,7 +7,7 @@ rackup "#{app_path}/current/config.ru"
 daemonize true
 pidfile "#{app_path}/shared/tmp/pids/puma.pid"
 state_path "#{app_path}/shared/tmp/puma.state"
-workers 2
+workers 1
 threads 6, 6
 bind "unix:#{app_path}/shared/tmp/sockets/puma.sock"
 preload_app!
